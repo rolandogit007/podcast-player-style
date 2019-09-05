@@ -1,0 +1,87 @@
+/*
+ * CSS Style - Earth & Skin Podcast Player
+ * Screenshot - https://prnt.sc/p2127r
+*/
+
+/* PODCAST PLAYER */
+.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+    background-color: #FFFFFF !important;
+}
+.mejs-container {}
+.mejs-container .mejs-controls {
+	padding: 0;
+}
+.mejs-container * {
+	font-family: "Playfair Display";
+	color: #28292D;
+}
+.mejs-time-total {
+    margin: 10px 0 0 !important;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-time-rail .mejs-time-total {
+    background: rgba(2, 6, 19, .16) !important;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #020613 !important;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #020613 !important;
+}
+.mejs-time-handle, .mejs-time-handle-content {
+	border: 7px solid #020613 !important;
+    border-radius: 100% !important;
+    top: -4.5px !important;
+}
+.mejs-time-handle-content,
+.mejs-time-float {
+	display: none !important;
+}
+.mejs-time-buffering, .mejs-time-current, .mejs-time-float, .mejs-time-float-corner, .mejs-time-float-current, .mejs-time-hovered, .mejs-time-loaded, .mejs-time-marker, .mejs-time-total {
+	height: 3px !important;
+}
+.mejs-horizontal-volume-total {
+    background: #020613;
+	height: 3px !important;
+    top: 20px !important;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-time-rail .mejs-time-total {
+    background: rgba(0, 0, 0, 0.16);
+}
+.mejs-horizontal-volume-handle {
+	display: block;
+}
+.mejs-playpause-button>button {
+    background: url(images/fa-play.png) !important;
+    background-size: cover !important;
+}
+.mejs-volume-button>button {
+    background: url(images/fa-volume.png) !important;
+    background-size: cover !important;
+}
+.powerpress_links {
+    display: none;
+}
+
+.powerpress_player > audio.wp-audio-shortcode {
+    display: none;
+}
+.current-player {
+    border: 1px solid #E0E1E4;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 7px 34px 0 rgba(2,6,19,0.12);
+    padding: 13px 20px;
+	margin-bottom: 35px;
+}
+.current-player .currently-playing {
+    display: block;
+    color: #28292D;
+    font-family: "Playfair Display";
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 8px;
+	padding: 0 7px;
+}
+
+
+/* PODCAST PLAYER */
